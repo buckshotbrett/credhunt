@@ -1,7 +1,7 @@
 # credhunt
 
 ## Description
-This tool is a CrackMapExec plugin that is used to spider shares and hunt for credentials and other interesting files. It combines code, features, and rules from the excellent CrackMapExec [spider_plus.py](https://github.com/byt3bl33d3r/CrackMapExec/blob/master/cme/modules/spider_plus.py) plugin and the amazing [Snaffler](https://github.com/SnaffCon/Snaffler). By implementing the triage rules from Snaffler, the same triage prioritization is used: Black is the most interesting, then Red, Yellow, and finally Green.
+This tool is a CrackMapExec plugin that is used to spider shares while hunting for credentials and other interesting files. It combines code, features, and rules from the excellent CrackMapExec [spider_plus.py](https://github.com/byt3bl33d3r/CrackMapExec/blob/master/cme/modules/spider_plus.py) plugin and the amazing [Snaffler](https://github.com/SnaffCon/Snaffler). By implementing the triage rules from Snaffler, the same triage prioritization is used: Black is the most interesting, then Red, Yellow, and finally Green.
 
 ## Installation
 It was implemented as a single file plugin to make installation easier. It simply needs to be copied CrackMapExec's modules folder.
